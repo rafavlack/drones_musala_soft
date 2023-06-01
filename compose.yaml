@@ -1,0 +1,11 @@
+version: '3'
+services:
+  drones_musala_soft:
+    build: .
+    ports:
+      - "8080:8080"
+  db_drones_musala_soft:
+    image: "oscarfonts/h2"
+    ports:
+      - "1521:1521"
+      - "81:81"
