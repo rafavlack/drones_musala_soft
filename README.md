@@ -31,14 +31,14 @@ mvn clean spring-boot:run
 
 `mvn clean install`
 
+
+# Run with Docker
 ```
 docker build -t drones-api-musala .
 ```
 
-# Run with Docker
-
 ```
-docker run -d --name drone-service-musala drones-api-musala/latest
+docker run -d  -p 8080 : 8080 --name drone-service-musala drones-api-musala
 ```
 
 Data Base Config:
@@ -50,3 +50,4 @@ JDBC URL: jdbc:h2:mem:testdb
 User Name: sa
 
 No password
+
