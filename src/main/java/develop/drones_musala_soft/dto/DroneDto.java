@@ -2,21 +2,19 @@ package develop.drones_musala_soft.dto;
 
 import develop.drones_musala_soft.model.drones.DroneModel;
 import develop.drones_musala_soft.model.drones.DroneState;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
+
+import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
+@Builder
 public class DroneDto {
 
     private Long id;
@@ -30,5 +28,5 @@ public class DroneDto {
     private int batteryCapacity;
     @NotNull
     private DroneState state;
-    private MedicationDto medicationDto;
+    private List<MedicationDto> medicationsDto;
 }

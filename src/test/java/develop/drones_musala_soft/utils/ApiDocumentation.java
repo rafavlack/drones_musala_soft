@@ -31,6 +31,8 @@ import java.util.List;
 @AutoConfigureRestDocs(outputDir = "src/docs/asciidoc")
 public class ApiDocumentation {
 
+    //***** Missing Remodify considering that changes were made to the Controller when using DTO **********//
+
     @Autowired
     private MockMvc mockMvc;
 
