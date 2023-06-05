@@ -35,4 +35,16 @@ public class AuditEventServiceImpl implements AuditEventService{
             System.out.println("Task Check Drone Batery done at: " + new Date());
         }
     }
+
+    @Override
+    public List<AuditEvent> getAllAuditEvent() {
+        return auditEventRepository.findAll();
+    }
+
+    @Override
+    public List<AuditEvent> getAllByDroneSerialNumber(String droneSerialNumber) {
+        return auditEventRepository.findAllByDroneSerialNumber(droneSerialNumber);
+    }
+
+
 }

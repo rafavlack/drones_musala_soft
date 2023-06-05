@@ -84,6 +84,8 @@ public class DroneServiceImpl implements DroneService{
 
         drone.setMedications(medications);
         drone.setState(DroneState.LOADED);
+
+        droneRepository.save(drone);
     }
 
     @Override
