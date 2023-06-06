@@ -1,0 +1,4 @@
+[source,json,options="nowrap"]
+----
+[{"id":1,"serialNumber":"SN-056","model":"CRUISERWEIGHT","weightLimit":500,"batteryCapacity":28,"state":"IDLE","medications":[{"id":1,"name":"Medication_1","weight":256.0,"code":"CODE1","image":"image1.jpg"}]},{"id":2,"serialNumber":"SN-057","model":"LIGHTWEIGHT","weightLimit":500,"batteryCapacity":95,"state":"LOADING","medications":[{"id":1,"name":"Medication_1","weight":256.0,"code":"CODE1","image":"image1.jpg"}]}]
+----

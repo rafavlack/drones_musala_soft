@@ -1,0 +1,48 @@
+|===
+|Path|Type|Description
+
+|`+[].id+`
+|`+Number+`
+|The ID of the drone.
+
+|`+[].serialNumber+`
+|`+String+`
+|The name of the drone.
+
+|`+[].model+`
+|`+String+`
+|The battery capacity of the drone.
+
+|`+[].weightLimit+`
+|`+Number+`
+|The state of the drone.
+
+|`+[].batteryCapacity+`
+|`+Number+`
+|The battery capacity of the drone.
+
+|`+[].state+`
+|`+String+`
+|The state of the drone.
+
+|`+[].medications[].id+`
+|`+Number+`
+|The ID of the medication.
+
+|`+[].medications[].name+`
+|`+String+`
+|The name of the medication.
+
+|`+[].medications[].weight+`
+|`+Number+`
+|The weight of the medication.
+
+|`+[].medications[].code+`
+|`+String+`
+|The code of the medication.
+
+|`+[].medications[].image+`
+|`+String+`
+|The image of the medication.
+
+|===
